@@ -1,0 +1,196 @@
+body{
+    background-color:lightcoral;
+    font-family: cursive;
+}
+h1.title{
+   color:purple;
+   font-size: 120px;   
+   text-align: center;
+   text-shadow: 6px 3px 4px gray;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   }
+.liens{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding:5px 10px;
+}
+.tent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: 550px;
+    border-radius: 40px;
+    filter: drop-shadow(16px 16px 20px gray);
+    padding:0;
+    margin:0;    
+}
+h2{
+    color:purple
+   }
+h2#Performances{
+    text-align:center;
+    text-shadow: 6px 3px 4px gray;
+    font-size: 40px;
+}
+.detail{
+    table-layout:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.liste{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    list-style-type: none;    
+}  
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;  
+    color: purple;
+    font-size:25px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    filter: drop-shadow(16px 16px 20px gray);      
+}  
+.imglaugh{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+.imgmagician{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+.imgmarvel{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+.p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:50px;
+    height: auto;
+} 
+p.Laugh{
+    text-align: center;
+}
+p.Dream{
+    text-align: center;
+}
+p.Marvel{
+    text-align: center;
+}
+#About_us{
+    text-align: center;
+    text-shadow: 6px 3px 4px gray
+} 
+
+.about{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    filter: drop-shadow(16px 16px 20px gray);
+    margin-top: 20px;
+}
+.imgclown{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+.imgweight{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+.imghula{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+.imgviolin{
+    border-style: inset;
+    border-radius: 30px;
+    height: 95px;
+}
+h2#Prices{
+    text-align: center;
+    text-shadow: 6px 3px 4px gray;
+
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    table-layout: auto;
+    align-content: center;
+    justify-content: space-around;
+    border-collapse: collapse;
+
+}
+tr{
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    width: 80px;
+}
+td{
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    width: 80px;     
+}
+th{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 80px;
+}
+
+#Contact_us{
+    text-align: center;
+    text-shadow: 6px 3px 4px gray
+}
+
+#email{
+    background-color: lightpink
+}
+#submit{
+    background-color: lightpink
+}
+#message{
+    background-color: lightpink
+}
+p.haut{
+    text-align: right
+}
+.footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding:5px 5px;
+}
